@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Music</title>
+</head>
+
+<body>
+
+
+    <main class="main-container">
+
+        <nav class="playlist" id="sidebar">
+
+
+            <div class="play-song">
+                
+                <img src="img/Disco_Muerte.jpg" alt="" class="img-vida">
+                <div class="play-cancion">
+                    <h2 class="titulo-play">La Hora del Juicio</h2>
+                    <p class="titulo-autor">Canserbero</p>
+
+                </div>
+
+            </div>
+
+            <div class="play-song">
+                
+                <img src="img/Apettite_For_Destruccion.jpg" alt="" class="img-vida">
+                <div class="play-cancion">
+                    <h2 class="titulo-play">Sweet Chil'd Of Mine</h2>
+                    <p class="titulo-autor">Gun´s Roses</p>
+<audio autoplay src="audio/La Hora del Juicio [Muerte] (128 kbps).mp3"></audio>
+                </div>
+
+            </div>
+
+            <div class="play-song">
+                
+                <img src="img/Hard_school.jpg" alt="" class="img-vida">
+                <div class="play-cancion">
+                    <h2 class="titulo-play">Hard School</h2>
+                    <p class="titulo-autor">Gun's Roses</p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="play-song">
+                
+                <img src="img/2.jpeg" alt="" class="img-vida">
+                <div class="play-cancion">
+                    <h2 class="titulo-play">So Fine</h2>
+                    <p class="titulo-autor">Guns N´ Roses</p>
+
+                </div>
+
+            </div>
+
+            <div class="play-song">
+                
+                <img src="img/segun_nosotros.jpeg" alt="" class="img-vida">
+                <div class="play-cancion">
+                    <h2 class="titulo-play">Ya para qué</h2>
+                    <p class="titulo-autor">Nanpa Básico</p>
+
+                </div>
+
+            </div>
+
+            <div class="play-song">
+                
+                <img src="img/frank.jpeg" alt="" class="img-vida">
+                <div class="play-cancion">
+                    <h2 class="titulo-play">You Sent My Flying</h2>
+                    <p class="titulo-autor">Amy Winehouse</p>
+
+                </div>
+
+            </div>
+
+            <div class="play-song">
+                
+                <img src="img/R.jpeg" alt="" class="img-vida">
+                <div class="play-cancion">
+                    <h2 class="titulo-play">Vuelve</h2>
+                    <p class="titulo-autor">Santu</p>
+
+                </div>
+
+            </div>
+
+            <div class="play-song">
+                
+                <img src="img/desacato.jpeg" alt="" class="img-vida">
+                <div class="play-cancion">
+                    <h2 class="titulo-play">Poesía</h2>
+                    <p class="titulo-autor">Los Aldeanos</p>
+
+                </div>
+
+            </div>
+
+    
+
+
+        </nav>
+        <section class="principal" id="principal">
+            <header>
+                <div class="waves">
+                    <h1>Reproducir</h1>
+                </div>
+                <div class="boton">
+                    <button class="layout">PlayList <i class='bx bx-right-arrow-alt bx-tada bx-flip-horizontal'></i></button>
+                </div>
+            </header>
+            <img src="img/Disco_Muerte.jpg" class="caratula" alt="">
+            <h1 class="titulo">Titulo de la Cancion</h1>
+            <p class="autor">Autor</p>
+            <div class="reproduccion">
+                <div class="progress">
+                    <div class="progress_bar"></div>
+                </div>
+            </div>
+            <div class="duracion">
+                <p id="current_duration">0:00</p>
+                <p id="total_duration">0:00</p>
+            </div>
+            <div class="botones">
+                <img class="icon" id="anterior" src="svg/arrow-left-solid.svg" alt="#">
+                <img class="icon" id="play_pause_btn" src="img/jugar-buttton.png" alt="#">
+                <img class="icon" id="siguiente" src="svg/arrow-right-solid.svg" alt="#">
+            </div>
+        </section>
+        <main></main>
+        
+    
+
+
+    <script src="app.js"></script>
+    <script src="metodo.js"></script>
+
+</body>
+
+</html>
